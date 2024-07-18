@@ -6,6 +6,10 @@
     <!-- <input type="number"  -->
     <!-- v-model="storeCounter.count"> -->
 
+    <div class="new-task">
+      <NewTask />
+    </div>
+
     <nav class="filter">
       <button @click="filter = 'all'">All Tasks</button>
       <button @click="filter = 'favs'">Fav Tasks</button>
@@ -40,7 +44,8 @@
 
 <script setup>
   //  import Counter from '@/components/Counter.vue';
-    import TaskDetails from '@/components/TaskDetails.vue';
+    import NewTask from '@/components/NewTask.vue';
+import TaskDetails from '@/components/TaskDetails.vue';
 import { useTaskStore } from '@/stores/taskStore';
 import {ref} from 'vue'
 
