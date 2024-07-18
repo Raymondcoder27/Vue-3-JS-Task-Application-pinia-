@@ -14,7 +14,7 @@
     const newTask = ref('')
 
     const handleSubmit = () => {
-        if (newTask.value.lenght > 0) {
+        if (newTask.value.length > 0) {
             taskStore.addTask({
         title: newTask.value,
         isFav: false,
