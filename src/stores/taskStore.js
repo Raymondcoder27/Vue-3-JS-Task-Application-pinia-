@@ -7,5 +7,10 @@ export const useTaskStore = defineStore('taskStore', {
       {id: 2, title: "play fifa", isFav: true}
     ], 
     name: 'Raymond'
-  })
+  }),
+  getters: {
+    favs() {
+      return this.tasks.filter(t => t.isFav)
+    }
+  }
 })
