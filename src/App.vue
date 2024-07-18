@@ -3,10 +3,10 @@
     <img alt="Vue logo" class="logo" src="@/assets/pinia-logo.svg" width="70" height="70" />
     <h1 class="title">Pinia Tasks</h1>
     <div class="wrapper">
-      <nav>
+      <!-- <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-      </nav>
+      </nav> -->
     </div>
    
   </header>

@@ -1,4 +1,5 @@
 <template>
+        <h3>Add New task</h3>
         <form class="form" @submit.prevent="handleSubmit">
         <input type="text"
         v-model="newTask">
@@ -30,5 +31,7 @@
 </script>
 
 <style scoped>
-
+ h3{
+    text-align: left;
+ }
 </style>
