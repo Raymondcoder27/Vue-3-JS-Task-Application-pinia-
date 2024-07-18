@@ -14,7 +14,7 @@
     <ul>
      <div class="task-list" v-if="filter === 'all'">
       <p>You have {{ taskStore.totalCount }} tasks left to do.</p>
-      <p>all tasks</p>
+      <!-- <p>all tasks</p> -->
       <li 
       class="task-list"
       v-for="task in taskStore.tasks"
@@ -25,7 +25,7 @@
      </div>
      <div class="task-list" v-if="filter === 'favs'">
       <p>You have {{ taskStore.favCount }} favs left to do.</p>
-      <p>fav tasks</p>
+      <!-- <p>fav tasks</p> -->
       <li 
       class="task-list"
       v-for="task in taskStore.favs"
