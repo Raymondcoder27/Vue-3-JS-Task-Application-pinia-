@@ -22,6 +22,16 @@ header img {
   max-width: 60px;
   transform: rotate(-10deg);
 }
+
+header .wrapper{
+  /* text-align: right; */
+  background: #e7e7e7;
+  padding-top: 20px;
+  display: flex;
+  justify-content: right;
+  /* align-items: right; */
+}
+
 header h1 {
   margin: 0;
   font-size: 2em;
@@ -79,4 +89,45 @@ header h1 {
   padding: 4px 8px;
   cursor: pointer;
   font-size: 1em;
+}
+
+/* new task form */
+.new-task-form{
+  background: #e7e7e7;
+  padding: 20px 0;
+}
+
+form{
+  min-width: 200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns:3fr 1fr;
+  gap: 10px;
+}
+
+form button {
+  background: #ffd859;
+  border: 0;
+  padding: 5px;
+  font-family: Poppins;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+form input{
+  border: 0;
+  padding: 10px;
+  border-radius: 6px;
+  color: #555;
+  font-size: 1em;
+}
+
+.header2 {
+  text-align: center;
+  background: #f2f2f2;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }

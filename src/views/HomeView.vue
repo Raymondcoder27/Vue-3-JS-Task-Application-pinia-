@@ -1,14 +1,10 @@
 <template>
   <main>
-    <h3>Home</h3>
-   <!-- <Counter /> -->
-    <!-- <h4>The count is {{ storeCounter.oddOrEven }}</h4> -->
-    <!-- <input type="number"  -->
-    <!-- v-model="storeCounter.count"> -->
-
+    <header class="header2">
     <div class="new-task">
       <NewTask />
     </div>
+  </header>
 
     <nav class="filter">
       <button @click="filter = 'all'">All Tasks</button>
